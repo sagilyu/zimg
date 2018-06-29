@@ -17,7 +17,7 @@ pwd             = io.popen('pwd'):read('*l')
 
 --header config
 --返回时所带的HTTP header
-headers         = 'Cache-Control:max-age=7776000'
+headers         = 'Cache-Control:max-age=7776000;Access-Control-Allow-Origin: *'
 --是否启用etag缓存
 etag            = 1
 
