@@ -6,7 +6,7 @@
 
 #include <sched.h>
 #include <pthread.h>
-#include <sys/queue.h>
+#include "queue.h"
 #include <event2/event.h>
 #include <event2/thread.h>
 

@@ -10,7 +10,7 @@
 #ifndef WIN32
 #include <sys/syscall.h>
 #include <sys/ioctl.h>
-#include <sys/queue.h>
+#include "queue.h"
 #endif
 
 #include <unistd.h>

@@ -12,7 +12,7 @@
 #include <onigposix.h>
 #endif
 
-#include <sys/queue.h>
+#include "queue.h"
 #include <event2/event.h>
 #include <event2/listener.h>
 #include <event2/buffer.h>
