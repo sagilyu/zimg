@@ -34,6 +34,8 @@
 
 typedef struct zimg_rules_s zimg_rules_t;
 
+/* typedef unsigned int uint; */
+
 typedef struct {
     in_addr_t mask;
     in_addr_t addr;
